@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+.main-container{
+    min-height: 100vh;
+    overflow: hidden;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    background: linear-gradient(rgb(24, 34, 53),#282929);
+    border-bottom: 2px Solid #080808;
+}
+
+
+header ul{
+    display: flex;
+    align-items: top;
+    list-style: none;
+    height: fit-content;
+}
+header ul li{
+    position: relative;
+    width: 100%;
+    height: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+header ul li img{
+    width: 20px;
+}
+
+
+
+header ul.simple-menu{
+    position: absolute;
+    font-size: 9pt;
+    top: 0px;
+    left: 5px;
+    color: #ddd5;
+    padding: 0 5px;
+}
+header ul.info-menu{
+    position: absolute;
+    transform: scale(0.8);
+    top: 8px;
+    right: -35px;
+}
+header ul.info-menu img{
+    filter: invert(.6);
+    transform: translate(0,-2.5px);
+    margin: auto;
+    width: 30px;
+    height: 20px;
+}
+header ul.info-menu li.borded{
+    background: rgb(32, 48, 68);
+    margin-left: 8px;
+}
+
+
+.profile-info{
+    display: flex;
+    background: rgb(32, 48, 68);
+    transform: translate(-5px,-5px);
+    align-items: center;
+    height: 25px;
+    color: #3c9cd3;
+}
+.profile-info h3{
+    display: flex;
+    align-items: center;
+    margin: auto 10px;
+    font-size: 14pt;
+    font-weight: 500;
+}
+.profile-info span{
+    max-width: 180px;
+    white-space: nowrap;
+    height: 25px;
+    overflow: hidden;
+}
+.profile-info h4{
+    color: #777;
+}
+ul.info-menu .profile-info img{
+    filter: none !important;
+    transform: translate(0,0);
+    width: 10px;
+    margin: auto 5px;
+}
+ul.info-menu .profile-info img#profile{
+    filter: none !important;
+    border-right: 3px solid #3c9cd3;
+    object-fit: cover;
+    margin-left: 0;
+    width: 25px;
+    height: 25px;
+}
+
+
+ul.info-menu #minimize{
+    width: 18px;
+    height: 20px;
+}
+ul.info-menu #minimize::after{
+    position: absolute;
+    top: 70%;
+    content: "";
+    width: 15px;
+    height: 2px;
+    background: #aaa;
+}
+ul.info-menu #maximize{
+    position: relative;
+    width: 18px;
+    height: 15px;
+    background: #aaa;
+}
+ul.info-menu #maximize::after{
+    position: absolute;
+    top: 4px;
+    left: 1px;
+    width: 16px;
+    content: "";
+    height: 10px;
+    background:#16223a;
+}
+
+
+ul.info-menu #exit{
+    position: relative;
+    width: 20px;
+    height: 15px;
+}
+ul.info-menu #exit div.cross-dir{
+    position: absolute;
+    width: 18px;
+    height: 2px;
+    top: 50%;
+    background: #aaa;
+    transform: rotate(45deg);
+}
+ul.info-menu #exit div.cross-esq{
+    position: absolute;
+    width: 18px;
+    height: 2px;
+    top: 50%;
+    background: #aaa;
+    transform: rotate(-45deg);
+}
+
+
+
+.main-menu{
+    position: absolute;
+    height: fit-content;
+    top: 40%;
+
+    color: #ddd;
+    text-shadow: 0 0 2px #fff;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+.main-menu li.active{
+    color: #fff;
+    text-shadow: 0 0 8px #fff;
+}
+.main-menu li{
+    height: fit-content;
+    cursor: pointer;
+    padding: 0 6px;
+    margin: 6px;
+}
+.main-menu .arrows{
+    transform: rotate(180deg);
+    filter: invert(0.3);
+}
+.main-menu .arrows:nth-child(2){
+    transform: rotate(0deg);
+    transform: translateY(2px);
+}
+.main-menu .arrows.active{
+    filter: invert(0) !important;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+footer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px Solid #111111;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    background: #2e3238;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    max-height: 40px;
+    margin: auto 20px;
+    cursor: pointer;
+}
+footer div#downloads{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+footer div h2{
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: auto 10px;
+    font-size: 10pt;
+}
+footer div h3{
+    display: block;
+    font-weight: 400;
+    font-size: 10pt;
+    line-height: 12px;
+    color: #777;
+}
+footer img{
+    max-height: 30px;
+    filter: invert(.7);
+}
+footer .resize{
+    max-height: 11px;
+    position: absolute;
+    cursor: se-resize;
+    bottom: 5px;
+    right: 5px;
+}

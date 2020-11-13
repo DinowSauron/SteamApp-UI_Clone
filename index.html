@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam App Clone</title>
+    <link rel="stylesheet" href="./public/css/main-style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <ul class="simple-menu">
+                <li>Steam</li>
+                <li>Exibir</li>
+                <li>Amigos</li>
+                <li>Jogos</li>
+                <li>Ajuda</li>
+            </ul>
+            <ul class="info-menu">
+                <li class="borded">
+                    <img src="./public/images/icons/notfy.svg" alt="Notifycation">
+                </li>
+                <li class="borded">
+                    <img src="./public/images/icons/mail.svg" alt="Mesages">
+                </li>
+                <li class="borded">
+                    <div class="profile-info">
+                        <img id="profile" src="./public/images/profile.png" alt="Profile Picture">
+                        <h3 ><span class="profile-name">Dinow Sauron</span>
+                        <img src="./public/images/icons/down.svg" alt="More Info"></h3>
+                        <h4><span class="money-format">R$</span><span class="money-value">12,58</span></h4>
+                    </div>
+                </li>
+
+
+                <li>
+                    <img src="./public/images/icons/full.svg" alt="Big Picture" title="Modo big Picture">
+                </li>
+                <li>
+                    <div id="minimize"></div>
+                </li>
+                <li>
+                    <div id="maximize"></div>
+                </li>
+                <li>
+                    <div id="exit"><div class="cross-dir"></div><div class="cross-esq"></div></div>
+                </li>
+            </ul>
+            
+            <ul class="main-menu">
+                <li class="arrows active">
+                    <img src="./public/images/icons/arrow.svg" alt="Back">
+                </li>
+                <li class="arrows">
+                    <img src="./public/images/icons/arrow.svg" alt="Back">
+                </li>
+                <li class="select-menu">Loja</li>
+                <li class="select-menu active">Biblioteca</li>
+                <li class="select-menu">Comunidade</li>
+                <li class="select-menu"><span id="profile-name">DinowSauron</span></li>
+            </ul>
+        </header>
+
+
+        <footer>
+            <div id="add-game">
+                <img src="./public/images/icons/add-btn.svg">
+                <h2>Adicionar Jogo</h2> 
+            </div>
+            <div id="downloads">
+                <h2>Downloads</h2><h3>Gerenciar</h3>
+            </div>
+            <div id="talking-open">
+                <h2>Amigos E <br> Conversas</h2> 
+                <img src="./public/images/icons/chat-btn.svg">
+            </div>
+            <img class="resize" src="./public/images/icons/dot-menu.svg" alt="Resize">
+        </footer>
+    </div>
+</body>
+</html>
