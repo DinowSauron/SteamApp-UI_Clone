@@ -59,17 +59,17 @@ ul.info-menu{
     right: -35px;
 }
 ul.info-menu img{
-    filter: invert(.6);
+    filter: invert(.4);
     transform: translate(0,-2.5px);
     margin: auto;
     width: 30px;
     height: 20px;
 }
 ul.info-menu img:hover{
-    filter: invert(.9);
+    filter: invert(.2);
 }
 ul.info-menu li.borded img{
-    filter: invert(.6);
+    filter: invert(.4);
 }
 ul.info-menu li.borded{
     background: rgb(32, 48, 68);
@@ -82,7 +82,6 @@ ul.info-menu li.borded:hover{
 
 .profile-info{
     display: flex;
-    /* background: rgb(32, 48, 68); */
     transform: translate(-5px,-5px);
     align-items: center;
     height: 25px;
@@ -104,10 +103,10 @@ ul.info-menu li.borded:hover{
     color: #777;
 }
 ul.info-menu .profile-info img{
-    filter: none !important;
-    transform: translate(0,0);
+    transform: none;
     width: 10px;
     margin: auto 5px;
+    filter: invert(57%) sepia(18%) saturate(2734%) hue-rotate(171deg) brightness(94%) contrast(74%) !important;
 }
 ul.info-menu .profile-info img#profile{
     filter: none !important;

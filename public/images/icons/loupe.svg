@@ -8,29 +8,29 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="down.svg"
+   sodipodi:docname="loupe.svg"
    xml:space="preserve"
-   style="enable-background:new 0 0 240.811 240.811;fill:#3c9cd3;"
-   viewBox="0 0 240.811 240.811"
+   style="enable-background:new 0 0 478.208 478.208;"
+   viewBox="0 0 478.208 478.208"
    y="0px"
    x="0px"
    id="Capa_1"
    version="1.1"><metadata
-   id="metadata112"><rdf:RDF><cc:Work
+   id="metadata43"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-   id="defs110" /><sodipodi:namedview
+   id="defs41" /><sodipodi:namedview
    inkscape:current-layer="Capa_1"
    inkscape:window-maximized="0"
-   inkscape:window-y="123"
-   inkscape:window-x="1205"
-   inkscape:cy="120.4055"
-   inkscape:cx="120.4055"
-   inkscape:zoom="3.5297391"
+   inkscape:window-y="0"
+   inkscape:window-x="0"
+   inkscape:cy="239.104"
+   inkscape:cx="239.104"
+   inkscape:zoom="1.7774692"
    showgrid="false"
-   id="namedview108"
-   inkscape:window-height="692"
-   inkscape:window-width="1064"
+   id="namedview39"
+   inkscape:window-height="480"
+   inkscape:window-width="723"
    inkscape:pageshadow="2"
    inkscape:pageopacity="0"
    guidetolerance="10"
@@ -41,79 +41,59 @@
    pagecolor="#ffffff" />
 <g
    style="fill:#ffffff"
-   id="g75">
-	<path
-   style="fill:#ffffff"
-   d="M220.088,57.667l-99.671,99.695L20.746,57.655c-4.752-4.752-12.439-4.752-17.191,0   c-4.74,4.752-4.74,12.451,0,17.203l108.261,108.297l0,0l0,0c4.74,4.752,12.439,4.752,17.179,0L237.256,74.859   c4.74-4.752,4.74-12.463,0-17.215C232.528,52.915,224.828,52.915,220.088,57.667z"
-   id="Expand_More" />
+   id="g6">
 	<g
    style="fill:#ffffff"
-   id="g63">
-	</g>
-	<g
+   id="g4">
+		<path
    style="fill:#ffffff"
-   id="g65">
-	</g>
-	<g
-   style="fill:#ffffff"
-   id="g67">
-	</g>
-	<g
-   style="fill:#ffffff"
-   id="g69">
-	</g>
-	<g
-   style="fill:#ffffff"
-   id="g71">
-	</g>
-	<g
-   style="fill:#ffffff"
-   id="g73">
+   id="path2"
+   d="M473.418,449.285L303.28,279.148c59.759-73.087,48.954-180.779-24.132-240.538S98.369-10.344,38.61,62.742    S-10.344,243.521,62.742,303.28c62.953,51.473,153.453,51.473,216.406,0l170.138,170.138c6.78,6.548,17.584,6.36,24.132-0.42    C479.805,466.384,479.805,455.899,473.418,449.285z M171.218,307.751c-75.37-0.085-136.449-61.163-136.533-136.533    c0-75.405,61.128-136.533,136.533-136.533s136.533,61.128,136.533,136.533S246.623,307.751,171.218,307.751z" />
 	</g>
 </g>
 <g
-   id="g77">
+   id="g8">
 </g>
 <g
-   id="g79">
+   id="g10">
 </g>
 <g
-   id="g81">
+   id="g12">
 </g>
 <g
-   id="g83">
+   id="g14">
 </g>
 <g
-   id="g85">
+   id="g16">
 </g>
 <g
-   id="g87">
+   id="g18">
 </g>
 <g
-   id="g89">
+   id="g20">
 </g>
 <g
-   id="g91">
+   id="g22">
 </g>
 <g
-   id="g93">
+   id="g24">
 </g>
 <g
-   id="g95">
+   id="g26">
 </g>
 <g
-   id="g97">
+   id="g28">
 </g>
 <g
-   id="g99">
+   id="g30">
 </g>
 <g
-   id="g101">
+   id="g32">
 </g>
 <g
-   id="g103">
+   id="g34">
 </g>
 <g
-   id="g105">
+   id="g36">
 </g>
 </svg>

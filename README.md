@@ -30,7 +30,8 @@ Neste dia perece que tive poucos avanços, porém muitas coisas foram feitas, co
 
 ---
 ## Agradecimentos:
-Primeiramente, a Steam!
+* Primeiramente, a Steam!
+* <a href="https://codepen.io/sosuke/pen/Pjoqqp" title="Color inverter">Pjoqqp - Cor Em Filtro</a>
 
 #### Icones e Imagens disponibilizados por:
 * <a href="https://www.flaticon.com/br/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a>
@@ -38,3 +39,6 @@ Primeiramente, a Steam!
 * <a href="https://www.flaticon.com/br/autores/iconixar" title="iconixar">iconixar</a>
 * <a href="https://www.flaticon.com/br/autores/dave-gandy" title="Dave Gandy">Dave Gandy</a>
 * <a href="https://www.flaticon.com/br/autores/catalin-fertu" title="Catalin Fertu">Catalin Fertu</a>
+* <a href="https://www.flaticon.com/authors/dmitri13" title="dmitri13">dmitri13</a> 
+* <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+* <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a>
