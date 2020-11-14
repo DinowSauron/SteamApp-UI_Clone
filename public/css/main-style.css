@@ -4,42 +4,47 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
-    min-height: 100vh;
+    height: 100vh;
+    background: #2a2e3b;
 }
 .main-container{
-    min-height: 100vh;
-    overflow: hidden;
+    display: block;
+    height: 100vh;
+    overflow: hidden; /* Remove this after */
 }
 header{
     position: relative;
     display: flex;
     justify-content: space-between;
     min-height: 75px;
-    background: linear-gradient(rgb(24, 34, 53),#282929);
-    border-bottom: 2px Solid #080808;
+    background: linear-gradient(rgb(24, 34, 53) 10%,#20222b 80%);
+    border-bottom: 2px Solid #20222b;
 }
 
 
-header ul{
+ul{
     display: flex;
     align-items: top;
     list-style: none;
     height: fit-content;
 }
-header ul li{
+ul li{
     position: relative;
     width: 100%;
     height: 15px;
     padding: 5px;
     cursor: pointer;
 }
-header ul li img{
+ul li:hover{
+    color: #ccc;
+}
+ul li img{
     width: 20px;
 }
 
 
 
-header ul.simple-menu{
+ul.simple-menu{
     position: absolute;
     font-size: 9pt;
     top: 0px;
@@ -47,28 +52,37 @@ header ul.simple-menu{
     color: #ddd5;
     padding: 0 5px;
 }
-header ul.info-menu{
+ul.info-menu{
     position: absolute;
     transform: scale(0.8);
     top: 8px;
     right: -35px;
 }
-header ul.info-menu img{
+ul.info-menu img{
     filter: invert(.6);
     transform: translate(0,-2.5px);
     margin: auto;
     width: 30px;
     height: 20px;
 }
-header ul.info-menu li.borded{
+ul.info-menu img:hover{
+    filter: invert(.9);
+}
+ul.info-menu li.borded img{
+    filter: invert(.6);
+}
+ul.info-menu li.borded{
     background: rgb(32, 48, 68);
     margin-left: 8px;
+}
+ul.info-menu li.borded:hover{
+    background: rgb(52, 80, 116);
 }
 
 
 .profile-info{
     display: flex;
-    background: rgb(32, 48, 68);
+    /* background: rgb(32, 48, 68); */
     transform: translate(-5px,-5px);
     align-items: center;
     height: 25px;
@@ -78,13 +92,12 @@ header ul.info-menu li.borded{
     display: flex;
     align-items: center;
     margin: auto 10px;
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: 500;
 }
 .profile-info span{
     max-width: 180px;
     white-space: nowrap;
-    height: 25px;
     overflow: hidden;
 }
 .profile-info h4{
@@ -106,6 +119,7 @@ ul.info-menu .profile-info img#profile{
 }
 
 
+
 ul.info-menu #minimize{
     width: 18px;
     height: 20px;
@@ -117,6 +131,9 @@ ul.info-menu #minimize::after{
     width: 15px;
     height: 2px;
     background: #aaa;
+}
+ul.info-menu #minimize:hover:after{
+    background: #ddd;
 }
 ul.info-menu #maximize{
     position: relative;
@@ -132,6 +149,9 @@ ul.info-menu #maximize::after{
     content: "";
     height: 10px;
     background:#16223a;
+}
+ul.info-menu #maximize:hover{
+    background: #ddd;
 }
 
 
@@ -156,6 +176,10 @@ ul.info-menu #exit div.cross-esq{
     background: #aaa;
     transform: rotate(-45deg);
 }
+ul.info-menu #exit:hover div.cross-dir,
+ul.info-menu #exit:hover div.cross-esq{
+    background: #ddd;
+}
 
 
 
@@ -169,28 +193,47 @@ ul.info-menu #exit div.cross-esq{
     font-size: 18pt;
     text-transform: uppercase;
 }
-.main-menu li.active{
-    color: #fff;
-    text-shadow: 0 0 8px #fff;
-}
 .main-menu li{
     height: fit-content;
     cursor: pointer;
     padding: 0 6px;
     margin: 6px;
 }
+.main-menu li:hover{
+    text-shadow: 0 0 4px #fff;
+}
+.main-menu li.active{
+    color: #fff;
+    text-shadow: 0 0 8px #fff;
+}
 .main-menu .arrows{
     transform: rotate(180deg);
-    filter: invert(0.3);
+    filter: invert(0.6);
+    cursor: initial;
 }
 .main-menu .arrows:nth-child(2){
     transform: rotate(0deg);
-    transform: translateY(2px);
+    transform: translate(-5px, 2.5px);
 }
 .main-menu .arrows.active{
-    filter: invert(0) !important;
+    filter: invert(0.15);
+    cursor: pointer;
+}
+.main-menu .arrows.active:hover{
+    filter: invert(0);
 }
 
+
+
+
+
+/* Iframe */
+
+iframe{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 135px);
+}
 
 
 
@@ -204,7 +247,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 2px Solid #111111;
     bottom: 0;
     width: 100%;
     min-height: 60px;
@@ -229,6 +271,12 @@ footer div h2{
     margin: auto 10px;
     font-size: 10pt;
 }
+footer div:hover h2{
+    color: #eee;
+}
+footer div:hover img{
+    filter: invert(.9);
+}
 footer div h3{
     display: block;
     font-weight: 400;
@@ -237,7 +285,7 @@ footer div h3{
     color: #777;
 }
 footer img{
-    max-height: 30px;
+    max-height: 25px;
     filter: invert(.7);
 }
 footer .resize{

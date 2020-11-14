@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    height: 100vh;
+    background: #2a2e3b;
+}
+
+.back-degrade{
+    background: linear-gradient(-75deg, #282830 60%, #2a2e38 );
+}
+
+
+
+
+
+aside{
+    display: fixed;
+    min-width: 260px;
+    max-width: 600px;
+    width: 290px;
+    height: 100vh;
+}
+
+.colection-menu{
+    display: flex;
+    background: #20222b;
+    padding: 4px;
+}
+.colection-menu button{
+    border: none;
+    background: #3b3f49;
+    background-image: url(../images/steam-logo-gray.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: 100px -45px;
+    width: calc(100% - 40px);
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.colection-menu h2{
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 12pt;
+    padding: 8px;
+}
+.colection-menu h2.active,
+.colection-menu h2:hover{
+    background: linear-gradient(90deg, rgb(46, 49, 56),#494d58df);
+}
+.colection-menu .colections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4px 0;
+    width: 35px;
+    min-height: fit-content;
+    border-radius: 4px;
+    background: #272931;
+    cursor: pointer;
+}
+.colections .block{
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    background: #666;
+}
+.colections:hover .block{
+    background: #eee;
+}
+
