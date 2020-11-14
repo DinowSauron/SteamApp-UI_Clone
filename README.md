@@ -9,12 +9,10 @@
  Veja ele funcionando! siga o link abaixo:
  Indisponivel no momento, volte após algumas semanas...
 
-
-Lembre-se que este é um clone do aplicativo desktop da [STEAM]("https://store.steampowered.com/about/")(valve.inc), portanto não há nenhuma funcionalidade além da navegação e __todo__ o seu conteúdo deve ser considerado apenas um exemplo.
+Lembre-se que este é um clone do aplicativo desktop da <a href="https://store.steampowered.com/about/">STEAM</a> (valve.inc), portanto não há nenhuma funcionalidade além da navegação e __todo__ o seu conteúdo deve ser considerado apenas um exemplo.
 
 ---
 # Day Log:
-
 ### Primeiro dia:
 Neste dia fiz apenas o basico que irá compor a maior parte da aplicação, não demorou muito e não foi muito dificil de construir.
 
