@@ -27,6 +27,13 @@ Neste dia perece que tive poucos avanços, porém muitas coisas foram feitas, co
 <img src="https://raw.githubusercontent.com/DinowSauron/SteamApp-UI_Clone/main/image-log/second-day.png" alt="Imagem Do Clone da Steam" title="Imagem do segundo dia de trabalho">
 </a>
 
+### Terceiro dia:
+Neste dia apesar de aparentar pouco desempenho, a maior parte do trabalho foi nas funcionalidades dos botoes, a interatividade será adicionada em breve pelo javascript.
+
+Tente adivinhar qual é o clone nesta foto!
+<a href="https://github.com/DinowSauron">
+<img src="https://raw.githubusercontent.com/DinowSauron/SteamApp-UI_Clone/main/image-log/third-day.png" alt="Imagem Do Clone da Steam" title="Imagem do terceiro dia de trabalho, Foto da direita é o clone.">
+</a>
 
 ---
 ## Agradecimentos:
