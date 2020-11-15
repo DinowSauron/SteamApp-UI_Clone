@@ -15,7 +15,9 @@ body{
     margin: 0;
     padding: 0;
 }
-
+.top-align{
+    align-items: flex-start !important;
+}
 
 
 
@@ -141,31 +143,90 @@ aside{
 .placeholder img.inside{
     position: absolute;
     filter: invert(.5);
-    width: 20px;
+    width: 15px;
+    height: 15px;
 }
 
 
 
 
 .menu-line .search{
-    display: flex;
-    width: 100%;
+    position: relative;
+    display: none;
     align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 100%;
 }
+.menu-line .search.active{
+    display: flex;
+}
+
+.search h3{
+    color: #ddd;
+    width: 100%;
+    margin: 5px 10px 5px 25px;
+}
+.search img.close{
+    position: absolute;
+    margin: auto;
+    right: 10px;
+    top: 11px;
+    transform: scale(0.8);
+    filter: invert(.1);
+}
+.search h4{
+    position: relative;
+    padding: 4px 10px;
+    font-size: 10pt;
+    white-space: nowrap;
+    color: #eee;
+    font-weight: 400;
+    margin: 3px;
+    padding-right: 20px;
+    background: radial-gradient(#4287e2, #2f69b6);
+    border-radius: 4px;
+}
+.search h4 img{
+    position: absolute;
+    transform: scale(0.5);
+    filter: invert(.4);
+    margin: auto;
+    right: 5px;
+    top: 6px;
+}
+.search .tag{
+    display: none;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 3px;
+    max-width: 90%;
+}
+.search .tag.active{
+    display: flex;
+}
+
 .search .placeholder{
     cursor: text;
+    margin-top: 0;
 }
 .search .placeholder:hover{
     background: #212128;
 }
 .placeholder input[type="search"]{
+    font-size: 14pt;
     background: transparent;
-    color: #fff;
+    color: #ddd;
     padding-left: 30px;
     width: 100%;
     height: 25px;
     margin: 5px;
     border: none;
+}
+.placeholder input[type="search"]:focus{
+    box-shadow: inset 0 0 5px #000;
+    outline: none;
 }
 .placeholder input[type="search"]::placeholder{
     color: #555;
@@ -176,6 +237,9 @@ aside{
 }
 .placeholder:hover input[type="search"]::placeholder{
     opacity: 1;
+}
+.placeholder input[type="search"]::-webkit-search-cancel-button{
+    cursor: pointer;
 }
 
 
@@ -193,6 +257,36 @@ aside{
 .placeholder .options.active{
     display: block;
 }
+
+.menu-line .filter-button{
+    position: relative;
+    background: #212128;
+    filter: invert(0);
+    border-radius: 4px;
+    border: none;
+    margin: 2px 5px;
+    padding: 5px;
+    min-width: 32px;
+    height: 32px;
+    cursor: pointer;
+    outline: none;
+}
+.filter-button img{
+    position: relative;
+    width: 22px;
+    height: 22px;
+    margin: auto;
+}
+.filter-button:hover{
+    background: #34363f;
+}
+.filter-button:hover img{
+    filter: invert(0);
+}
+.filter-button.active{
+    background: #34363f;
+}
+
 
 
 .options .option{
