@@ -35,6 +35,9 @@ Tente adivinhar qual é o clone nesta foto!
 <img src="https://raw.githubusercontent.com/DinowSauron/SteamApp-UI_Clone/main/image-log/third-day.png" alt="Imagem Do Clone da Steam" title="Imagem do terceiro dia de trabalho, Foto da direita é o clone.">
 </a>
 
+### Restantes:
+Cláro, não irei declarar o trabalho realido a cada dia aqui, pois ficaria muito longo, e este não é o foco de um read.me então é isso mostrei os avanços que tive nos tres primeiros dias e agora você tem uma noção na evolução no projeto.
+
 ---
 ## Agradecimentos:
 * Primeiramente, a Steam!

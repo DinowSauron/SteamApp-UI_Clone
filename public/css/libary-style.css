@@ -253,6 +253,7 @@ aside{
     width: 100%;
     opacity: 1;
     transition: 50ms;
+    z-index: 5;
 }
 .placeholder .options.active{
     display: block;
@@ -290,9 +291,11 @@ aside{
 
 
 .options .option{
+    position: relative;
     display: flex;
     align-items: center;
     margin: 8px;
+    z-index: 5;
 }
 .options .option label{
     color: #aaa;
@@ -318,4 +321,72 @@ aside{
     width: 14px;
     
     filter: invert(.85) hue-rotate(180deg);
+}
+
+
+
+
+
+.menu-full{
+    /* background: #555; */
+    height: calc(100% - 136px);
+    margin-top: 5px;
+    overflow-y:scroll;
+}
+.category header{
+    display: flex;
+    background: linear-gradient(90deg, #2c3342 30%, transparent);
+    white-space: nowrap;
+    padding: 5px;
+    margin: 2px 0;
+    cursor: pointer;
+}
+.category header:hover{
+    background: #8fbadd34;
+}
+.category header h2{
+    color: #c0daefaa;
+    width: 100%;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+.category header h2:hover{
+    color: #eee;
+}
+.category img{
+    width: 12px;
+    margin-right: 5px;
+    filter: invert(28%) sepia(9%) saturate(836%) hue-rotate(176deg) brightness(98%) contrast(91%);
+}
+.category img:hover{
+    filter: invert(.1);
+}
+.category header h2 span{
+    margin-left: 5px;
+    font-weight: 400;
+    color: #c0daef33;
+}
+
+
+
+.game{
+    display: flex;
+    padding: 0 5px;
+    white-space: nowrap;
+    padding: 2px 0;
+    cursor: pointer;
+}
+.game:hover{
+    background: #8fbadd44;
+}
+.game img{
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+.game h3{
+    color: #eee;
+    font-weight: 400;
+    font-size: 12pt;
 }
