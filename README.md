@@ -37,6 +37,7 @@ Tente adivinhar qual é o clone nesta foto!
 
 ### Restantes:
 Cláro, não irei declarar o trabalho realido a cada dia aqui, pois ficaria muito longo, e este não é o foco de um read.me então é isso mostrei os avanços que tive nos tres primeiros dias e agora você tem uma noção na evolução no projeto.
+Note também que por ser um aplicativo, assumo que as imagens já estarão em posse do cliente, então muitas delas não foi adicionado um texto alternativo!
 
 ---
 ## Agradecimentos:
@@ -44,6 +45,7 @@ Cláro, não irei declarar o trabalho realido a cada dia aqui, pois ficaria muit
 * <a href="https://codepen.io/sosuke/pen/Pjoqqp" title="Color inverter">Pjoqqp - Cor Em Filtro</a>
 
 #### Icones e Imagens disponibilizados por:
+* <a href="https://www.flaticon.com/authors/google" title="Google">Google</a>
 * <a href="https://www.flaticon.com/br/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a>
 * <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> 
 * <a href="https://www.flaticon.com/br/autores/iconixar" title="iconixar">iconixar</a>

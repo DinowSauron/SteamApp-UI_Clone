@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    /* background: #fff; */
+    min-height: 100%;
+    overflow-y: scroll;
+}
+
+:root{
+    --size: 1;
+    /* height: calc(280px * var(--size)); */
+}
+
+
+
+header{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(95deg, #2c3144 60%, #262831);
+    padding: 20px 30px;
+    transition: 100ms;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title h1{
+    font-size: 15pt;
+    color: #aaaaaa;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.title h1:hover{
+    color: #cccccc;
+}
+.title img{
+    width: 15px;
+    margin: 0 8px;
+    filter: invert(.4);
+    cursor: pointer;
+}
+.title img:hover{
+    filter: invert(.2);
+}
+.title .line{
+    width: 100%;
+    height: 2px;
+    margin: 0 5px;
+    background: #fff1;
+}
+.title img.arrow-l{
+    transform: rotate(180deg);
+}
+.title img.arrow-l,
+.title img.arrow-r{
+    width: 25px;
+    filter: invert(.7);
+}
+.title img.arrow-l.active,
+.title img.arrow-r.active{
+    filter: invert(.4);
+}
+.title img.arrow-l.active:hover,
+.title img.arrow-r.active:hover{
+    filter: invert(.2);
+}
+
+
+
+.game-show{
+    position: relative;
+    display: flex;
+    width: fit-content;
+    overflow: hidden;
+
+    left: -40px;
+    padding-left: 40px;
+}
+.game-show::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 95vw;
+    width: 5vw;
+    height: 100%; /*#2c3144 60%, #262831);*/
+    background: linear-gradient(90deg, transparent,#262831);
+}
+.game-show .game{
+    position: relative;
+    /*left: -80px;  /* Veja o arrasto */
+    margin-right: 25px;
+}
+.game-show .game h4{
+    color: #777;
+    font-weight: normal;
+    text-transform: lowercase;
+    margin: 2px 0;
+}
+.game-show .game img{
+    width: calc(250px * var(--size));
+    cursor: pointer;
+}
+.game-show h2{
+    color: #aaa;
+    font-size: 12pt;
+    width: calc(250px * var(--size));
+}
+.game-show .game-name{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    white-space: nowrap;
+    background: #6e6e6e33
+}
+.game-show .game-name img{
+    width: 20px;
+}
+.game-show .game-name h3{
+    color: #888;
+    font-weight: normal;
+    font-size: 11pt;
+    padding: 0 5px;
+}

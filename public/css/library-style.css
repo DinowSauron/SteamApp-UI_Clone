@@ -4,7 +4,8 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
-    height: 100vh;
+    display: flex;
+    height: 100%;
     background: #2a2e3b;
 }
 
@@ -331,7 +332,8 @@ aside{
     /* background: #555; */
     height: calc(100% - 136px);
     margin-top: 5px;
-    overflow-y:scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .category header{
     display: flex;
@@ -380,13 +382,20 @@ aside{
     background: #8fbadd44;
 }
 .game img{
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     margin-right: 5px;
     margin-left: 15px;
 }
 .game h3{
     color: #eee;
     font-weight: 400;
-    font-size: 12pt;
+    font-size: 11pt;
+}
+
+
+
+iframe{
+    width: 100%;
+    min-height: 100%;
 }
