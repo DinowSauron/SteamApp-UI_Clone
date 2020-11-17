@@ -116,7 +116,8 @@ header{
     height: fit-content;
     align-items: center;
     white-space: nowrap;
-    background: #6e6e6e33
+    background: #6e6e6e33;
+    cursor: pointer;
 }
 .game-show .game-name img{
     width: 20px;
@@ -126,4 +127,10 @@ header{
     font-weight: normal;
     font-size: 11pt;
     padding: 0 5px;
+}
+.game-show .game-name:hover{
+    background: #6e6e6eaa;
+}
+.game-show .game-name:hover h3{
+    color: #eee;
 }
