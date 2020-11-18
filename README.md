@@ -9,7 +9,13 @@
  Veja ele funcionando! siga o link abaixo:
  Indisponivel no momento, volte após algumas semanas...
 
-Lembre-se que este é um clone do aplicativo desktop da <a href="https://store.steampowered.com/about/">STEAM</a> (valve.inc), portanto não há nenhuma funcionalidade além da navegação e __todo__ o seu conteúdo deve ser considerado apenas um exemplo.
+### Tecnologias utilizadas:
+* HTML5 - vanilla.
+* CSS3 - vanilla.
+* JavaScript.
+    * TypeScript.
+
+Lembre-se que este é um clone do aplicativo desktop da <a href="https://store.steampowered.com/about/">STEAM</a> (valve.inc), portanto não há nenhuma funcionalidade além da navegação e __TODO__ o seu conteúdo e informações devem ser considerados apenas um exemplo.
 
 ---
 # Day Log:
@@ -44,7 +50,7 @@ Note também que por ser um aplicativo, assumo que as imagens já estarão em po
 * Primeiramente, a Steam!
 * <a href="https://codepen.io/sosuke/pen/Pjoqqp" title="Color inverter">Pjoqqp - Cor Em Filtro</a>
 
-#### Icones e Imagens disponibilizados por:
+#### Icones disponibilizados por:
 * <a href="https://www.flaticon.com/authors/google" title="Google">Google</a>
 * <a href="https://www.flaticon.com/br/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a>
 * <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> 
@@ -52,6 +58,5 @@ Note também que por ser um aplicativo, assumo que as imagens já estarão em po
 * <a href="https://www.flaticon.com/br/autores/dave-gandy" title="Dave Gandy">Dave Gandy</a>
 * <a href="https://www.flaticon.com/br/autores/catalin-fertu" title="Catalin Fertu">Catalin Fertu</a>
 * <a href="https://www.flaticon.com/authors/dmitri13" title="dmitri13">dmitri13</a> 
-* <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
 * <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a>
 

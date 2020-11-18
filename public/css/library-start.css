@@ -9,6 +9,9 @@ body{
     min-height: 100%;
     overflow-y: scroll;
 }
+.back-degrade{
+    background: linear-gradient(-75deg, #272930 60%, #2a2e38 );
+}
 
 :root{
     --size: 1;
@@ -31,6 +34,7 @@ header{
 .title h1{
     font-size: 15pt;
     color: #aaaaaa;
+    white-space: nowrap;
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
@@ -133,4 +137,100 @@ header{
 }
 .game-show .game-name:hover h3{
     color: #eee;
+}
+
+
+.game .info{
+    position: absolute;
+    background: #4287e222;
+    filter: blur(50%);
+    opacity: 0;
+    width: 100%;
+    height: 62%;
+    top: 23px;
+    transition: 350ms;
+    cursor: pointer;
+    overflow: hidden;
+}
+.game-show .game img:hover ~ .info, /* metodo interresante */
+.game .info:hover{
+    opacity: 1;
+}
+.game .info img{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 15px;
+    filter: invert(.2);
+}
+.game .info img:hover{
+    filter: invert(37%) sepia(18%) saturate(2734%) hue-rotate(171deg) brightness(94%) contrast(74%) 
+}
+.game .info h2{
+    margin: 15px 0 5px 15px;
+    color: #4287e2;
+    text-transform: uppercase;
+}
+.game .info p{
+    margin: 0 15px 15px 15px;
+    font-size: 11pt;
+    color: #eee;
+}
+
+
+
+
+
+
+/* MAIN */
+
+main{
+    padding: 25px;
+}
+main .game{
+    overflow: initial;
+}
+.game .horizontal{
+    position: relative;
+    display: block;
+    box-shadow: 5px 5px 5px #0003;
+    width: fit-content;
+    margin-bottom: 15px;
+}
+.game .game-interact{
+    display: flex;
+    position: absolute;
+    background: radial-gradient(#a7a7a757, #8b8b8bbd);
+    bottom: -20px;
+    width: 100%;
+    height: 40%;
+}
+.game-interact .action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3cc043;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+}
+.game-interact .action img{
+    width: calc(20px * var(--size));
+    height: calc(20px * var(--size));
+    margin: 11px;
+}
+.game-interact h2{
+    display: block;
+}
+.game-interact .info-btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    /* transform: scale(0.8); */
+}
+.game-interact .info-btn p {
+    color: #ccc;
+    font-size: 10pt;
 }
