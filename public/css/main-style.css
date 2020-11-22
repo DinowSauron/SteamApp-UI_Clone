@@ -7,6 +7,9 @@ body{
     height: 100vh;
     background: #2a2e3b;
 }
+:root{
+    --filter-blue: invert(37%) sepia(18%) saturate(2734%) hue-rotate(171deg) brightness(94%) contrast(74%);
+}
 .main-container{
     display: block;
     height: 100vh;

@@ -9,16 +9,7 @@ body{
     background: #2a2e3b;
 }
 
-.back-degrade{
-    background: linear-gradient(-75deg, #272930 60%, #2a2e38 );
-}
-.reset{
-    margin: 0;
-    padding: 0;
-}
-.top-align{
-    align-items: flex-start !important;
-}
+
 
 
 

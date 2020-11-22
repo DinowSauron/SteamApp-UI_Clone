@@ -9,14 +9,7 @@ body{
     min-height: 100%;
     overflow-y: scroll;
 }
-.back-degrade{
-    background: linear-gradient(-75deg, #272930 60%, #2a2e38 );
-}
 
-:root{
-    --size: 1;
-    /* height: calc(280px * var(--size)); */
-}
 
 
 
@@ -30,6 +23,7 @@ header{
 .title{
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 .title h1{
     font-size: 15pt;
@@ -38,6 +32,11 @@ header{
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
+}
+.title span{
+    opacity: .6;
+    font-weight: 400;
+    font-size: 12pt;
 }
 .title h1:hover{
     color: #cccccc;
@@ -73,7 +72,12 @@ header{
 .title img.arrow-r.active:hover{
     filter: invert(.2);
 }
-
+.title .arrow-up{
+    border-radius: 50%;
+    filter: invert(.7);
+    transform: scale(1.2) rotateZ(180deg);
+    margin: 0;
+}
 
 
 .game-show{
@@ -99,6 +103,7 @@ header{
     /*left: -80px;  /* Veja o arrasto */
     margin-right: 25px;
 }
+
 .game-show .game h4{
     color: #777;
     font-weight: normal;
@@ -186,9 +191,16 @@ header{
 
 main{
     padding: 25px;
+    overflow: hidden;
 }
 main .game{
     overflow: initial;
+}
+main h4{
+    color: #777;
+    font-weight: normal;
+    margin-top: 2px;
+    margin-bottom: 10px;
 }
 .game .horizontal{
     position: relative;
@@ -209,15 +221,30 @@ main .game{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #3cc043;
     width: fit-content;
     height: fit-content;
     margin: 5px;
+    
+    box-shadow: 2px 2px 2px #0004;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.action.green{
+    background: radial-gradient(#70ca75, #2caa32);
+}
+.action.blue{
+    background: radial-gradient(#6fa3d4, #2867a1);
 }
 .game-interact .action img{
     width: calc(20px * var(--size));
     height: calc(20px * var(--size));
+    opacity: .7;
     margin: 11px;
+    transition: 200ms;
+}
+.action:hover img{
+    transform: scale(1.1);
+    opacity: 1;
 }
 .game-interact h2{
     display: block;
@@ -228,9 +255,31 @@ main .game{
     flex-direction: column;
     width: 100%;
     height: 90%;
+    cursor: pointer;
     /* transform: scale(0.8); */
 }
 .game-interact .info-btn p {
     color: #ccc;
     font-size: 10pt;
+}
+
+
+.game .vertical{
+    position: relative;
+    display: block;
+    box-shadow: 5px 5px 5px #0003;
+    margin-bottom: 15px;
+    width: calc(110px * var(--size));
+    height: calc(160px * var(--size) - 2px);
+}
+.game .vertical img{
+    transform-origin: center;
+    width: calc(110px * var(--size));
+    height: calc(160px * var(--size) - 2px);
+    transform: scale(1) rotate3d(1,0,0,0deg);
+    transition: 300ms;
+    margin: 0;
+}
+.game .vertical img:hover{
+    transform: scale(1.1) rotate3d(1,0,0,20deg);
 }

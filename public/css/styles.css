@@ -1,0 +1,21 @@
+
+:root{
+    --size: 1;
+    --filter-blue: invert(37%) sepia(18%) saturate(2734%) hue-rotate(171deg) brightness(94%) contrast(74%);
+}
+.back-degrade{
+    background: linear-gradient(-75deg, #272930 60%, #2a2e38 );
+}
+.reset{
+    margin: 0;
+    padding: 0;
+}
+.top-align{
+    align-items: flex-start !important;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.md{
+    margin: 8px;
+}
