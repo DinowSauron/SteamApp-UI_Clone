@@ -3,8 +3,7 @@
  Este projeto é apenas para fins de aprendizado realizado sem ajuda de cursos/tutoriais.
  Como estou tentando utilizar imagens livres de direitos autorais, apenas por costume, então o clone não tem como ser perfeito, porém é sim possivel confundir-se pois estes pequenos detalhes só são percebidos quando colocado o original e o clone lado a lado.
  
- Iniciado em: 12/11/2020.
- Termino: em andamento.
+Creio que sempre terá algo a ser feito, então não tenho como dizer que finalizei, mais posso dizer que teve um otimo resultado em apénas 10 dias.
 
  Veja ele funcionando! siga o link abaixo:
  Indisponivel no momento, volte após algumas semanas...
@@ -12,10 +11,16 @@
 ### Tecnologias utilizadas:
 * HTML5 - vanilla.
 * CSS3 - vanilla.
-* JavaScript.
-    * TypeScript.
+* JavaScript - vanilla.
 
 Lembre-se que este é um clone do aplicativo desktop da <a href="https://store.steampowered.com/about/">STEAM</a> (valve.inc), portanto não há nenhuma funcionalidade além da navegação e __TODO__ o seu conteúdo e informações devem ser considerados apenas um exemplo.
+
+
+# Resultado
+
+<a href="https://github.com/DinowSauron">
+<img src="https://raw.githubusercontent.com/DinowSauron/SteamApp-UI_Clone/main/image-log/steam1.png" alt="Imagem Do Clone da Steam finalizado" title="Imagem retirada dia 27/11/2020">
+</a>
 
 ---
 # Day Log:
