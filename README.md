@@ -6,7 +6,8 @@
 Creio que sempre terá algo a ser feito, então não tenho como dizer que finalizei, mais posso dizer que teve um otimo resultado em apénas 10 dias.
 
  Veja ele funcionando! siga o link abaixo:
- Indisponivel no momento, volte após algumas semanas...
+ 
+ [Clique Aqui e Vejá Ele funcionando!](https://dinowsauron.github.io/SteamApp-UI_Clone/)
 
 ### Tecnologias utilizadas:
 * HTML5 - vanilla.
@@ -47,7 +48,7 @@ Tente adivinhar qual é o clone nesta foto!
 </a>
 
 ### Restantes:
-Cláro, não irei declarar o trabalho realido a cada dia aqui, pois ficaria muito longo, e este não é o foco de um read.me então é isso mostrei os avanços que tive nos tres primeiros dias e agora você tem uma noção na evolução no projeto.
+Cláro, não irei declarar o trabalho realizado a cada dia aqui, pois ficaria muito longo, e este não é o foco de um read.me então é isso, mostrei os avanços que tive nos tres primeiros dias e agora você tem uma noção da evolução no projeto.
 Note também que por ser um aplicativo, assumo que as imagens já estarão em posse do cliente, então muitas delas não foi adicionado um texto alternativo!
 
 ---
